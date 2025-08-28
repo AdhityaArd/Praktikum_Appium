@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Google SDET Suite">
+
+    <test name="Calculator Test" enabled="false">
+        <classes>
+            <class name="com.Tohsaka.Calculator.AppTest" ></class>
+        </classes>
+    </test>
+    <test name="SwagLabs Test">
+        <classes>
+            <class name="com.Tohsaka.SwagLabs.LoginTest"></class>
+            <class name="com.Tohsaka.SwagLabs.InventoryTest"></class>
+        </classes>
+    </test>
+</suite>
